@@ -1,4 +1,4 @@
-
+package eu.ase.clases;
 
 public class Animal {
 
@@ -20,7 +20,10 @@ public class Animal {
 	public String getName() {
 		return this.name;
 	}
-	public void setName(String newName) {
+	public void setName(String newName) throws Exception {
+		if(newName==null) {
+			throw new Exception("invalid name!");
+		}
 		this.name=newName;
 	}
 

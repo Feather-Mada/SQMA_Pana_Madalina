@@ -1,4 +1,3 @@
-package eu.ase.tests;
 
 import static org.junit.Assert.*;
 
@@ -8,7 +7,6 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import eu.ase.clases.Animal;
 
 public class TestAnimal2 {
 

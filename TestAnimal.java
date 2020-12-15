@@ -32,25 +32,25 @@ public class TestAnimal {
 		Animal x=new Animal();
 		try {
 			x.setName(null);
-			fail("not throwing exception");
+			fail("TestName: not throwing exception");
 		}catch(Exception e) {
-			assertTrue(true);
+			assertTrue("TestName: Throws Exception",true);
 		}
 		
 	}
 	
-	@Test
-	public void testVerifAge() {
+	//@Test
+	//public void testVerifAge() {
 		
-		Animal x=new Animal();
-		try {
-			x.isOld(-4);
-			fail("not throwing exception");
-		}catch(Exception e) {
-			assertTrue(true);
-		}
+	//	Animal x=new Animal();
+	//	try {
+	//		x.isOld(-4);
+	//		fail("not throwing exception");
+	//	}catch(Exception e) {
+	//		assertTrue(true);
+	//	}
 		
 		//fail("Not yet implemented");
-	}
+	//}
 
 }

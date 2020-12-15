@@ -32,9 +32,9 @@ public class TestAnimal2 {
 		Animal x=new Animal();
 		try {
 			x.isOld(-4);
-			fail("not throwing exception");
+			fail("TestVerifAge: not throwing exception");
 		}catch(Exception e) {
-			assertTrue(true);
+			assertTrue("TestVerifAge: Throws Exception",true);
 		}
 	}
 
